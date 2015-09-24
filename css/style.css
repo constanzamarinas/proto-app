@@ -1,0 +1,416 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family:Avenir-Book;
+    src: url(../fonts/Avenir-Book.woff2);
+	src: url(../fonts/Avenir-Book.ttf);
+	src: url(../fonts/Avenir-Book.svg);
+	src: url(../fonts/Avenir-Book.woff);
+	src: url(../fonts/Avenir-Book.eot?#iefix) format('embedded-opentype'),;
+}
+
+
+body{
+	width:100%;
+	margin:0 auto;
+	font-family:"Avenir-Book", sans-serif;
+	font-size:14px;
+}
+
+section{
+	margin: 10px auto;
+
+}
+/* home */
+.logo, header {
+	position:relative;
+	width:100%;
+	display: inline-block;
+}
+
+.logo img{
+position:absolute;
+	z-index:1000;
+	width:100px;
+	margin:0px 20px;
+}
+
+video{
+	z-index:0;
+	border:0px;
+	margin:0;
+	padding:0;	
+top: 0px;
+left: 0;
+width: auto;
+height: auto;
+min-width: 100%;
+min-height: 100%;
+
+}
+
+.wrapper{ width:85%;
+margin:0 auto;
+	}
+	
+header{
+	background-color: #ffffff;
+	height: 100px;
+	display: inline-block;
+	border-bottom: 1px #ebebeb solid;
+}
+/* menu */
+nav{
+	float:right;
+	margin:0px;
+	display: inline-block;
+	}
+nav ul {
+	list-style-type:none;
+	}
+
+nav ul li{
+	float:left;
+	text-decoration:none;
+	}
+	
+nav ul li a{
+	margin: 20px 10px auto 20px;
+	font-size:12px;
+	width:auto;
+	color:#000000;
+	text-decoration:none;
+	
+	}
+	
+nav ul li a:hover{
+	color:#EC008B;
+	border-bottom: 2px #EC008B solid;
+	
+	}
+		
+.active{
+	color:#EC008B;
+	}	
+
+/**-----home----**/
+.flex-container, .flex-container2{
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    
+}
+.flex-container img, .flex-container2 img, .flex-item img,{
+	width:102%;
+	margin-top:0px;
+}
+
+
+.flex-container2 img{
+	width:100%;
+	height:auto; 
+}
+
+.flex-item{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+
+/* zapatos */
+
+
+.submenu{
+	 -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+
+.border{
+	border: 1px solid #ebebeb;
+	margin: 5px;
+}
+
+
+
+
+.flex-container3 {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    }
+
+.flex-item3{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0;
+    -ms-flex:  1 0;
+    flex: 1 0;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    }
+
+ .flex-item3 img{
+	min-width: 200px;
+	width:90%;
+ }
+
+ 
+
+
+/* footer */
+footer{
+	background-color:#EC008B;
+	width:100%;
+	height:45px;
+	padding:10px;
+	box-sizing: border-box;
+	clear:both;
+	
+}
+
+.social{
+	width:30%;
+	float:left;
+	line-height:0px;
+	font-family:12px;
+}
+
+.social img{
+	margin-right:10px;
+	}
+
+.mail{
+	width:50%;
+	float:right;
+	text-align:right;
+	line-height:0px;
+	font-size:14px
+}
+
+/* columnas */
+
+
+	
+.blanco{
+	color:#FFFFFF;
+	}
+	
+.color{
+	color:#EC008B;
+	}
+
+section{
+	width:100%;
+	clear:both;
+	box-sizing: border-box;
+	margin-top: 10px;
+left: 0;
+width: auto;
+height: auto;
+}
+
+
+	
+img{
+	border-image:none;
+	}
+/* textos*/
+
+h2{ 
+font-size:20px;
+color:#EC008B;
+font-weight:400;
+}
+
+h3{ 
+font-size:27px;
+color:#EC008B;
+font-weight:400;
+}
+
+h4{ 
+font-size:18px;
+line-height: 10px;
+color:#000;
+font-weight:700;
+text-transform: uppercase;
+}
+
+h5{ 
+font-size:24px;
+line-height: 10px;
+color:#000;
+font-weight:500;
+text-transform: uppercase;
+}
+
+p{ 
+font-size:14px;
+font-weight:400;
+	}
+
+.boton{
+	color: #EC008B;
+	background-color: #fff;
+	width:90%;
+	padding: 10px;
+	border: 1px #EC008B solid;
+	letter-spacing: 3px;
+	font-size: 1em;
+	text-decoration: none;
+	clear:both;
+
+
+}
+
+.boton:hover{
+	color: #fff;
+	background-color: #EC008B;	
+}
+
+/*carrito*/
+.container-carrito {
+      display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    }
+
+ .product-item{
+ 	 -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    padding: 10px;
+
+}
+
+.product-img img{
+	width:180px;
+}
+
+.product-img, .product-info, .product-count{
+display: inline-block;
+position: relative;
+width: 30%;
+min-width:150px;
+
+}
+
+/* contacto */
+
+.contacto-a{
+	margin-top:100px;
+}
+.contacto-img img{
+	width: 15px;
+	float:left;
+	margin-right:5px;
+}
+
+
+
+#map{ margin-top:130px;
+}
+
+input[type="text"]
+{
+	float:left;
+width:47%;
+display:block;
+margin-bottom:22px;
+border: 1px solid #EC008B;
+padding:10px;
+font-size:14px;
+color:#000000;
+}
+
+#apellido, #telefono{
+	margin-left:20px;
+	}
+
+#mensaje{
+	width:97.5%;
+	height:200px;
+	}
+	
+input[type="submit"]
+{
+	width:99%;
+	height:40px;
+	margin-bottom:20px;
+	color:#FFFFFF;
+	background-color:#EC008B;
+	border:1px solid #EC008B;
+
+	}	
